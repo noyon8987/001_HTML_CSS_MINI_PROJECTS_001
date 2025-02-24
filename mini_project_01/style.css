@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: url(./img/bgi.avif) no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 98vh;
+}
+
+.navber {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2vh;
+}
+
+.navber .logo {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  color: tomato;
+  cursor: pointer;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.nav-list ul li {
+  list-style: none;
+  color: white;
+  margin: 1.1vw;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all linear 0.3s;
+}
+
+.nav-list ul li:hover {
+  color: tomato;
+  cursor: pointer;
+}
+
+.nav-list ul .list-one {
+  color: tomato;
+  cursor: pointer;
+}
+
+.btn button {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 0.7vw 1.2vw;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: tomato;
+  color: white;
+  transition: all linear 0.3s;
+}
+
+.btn button:hover {
+  color: tomato;
+  background-color: black;
+}
+
+.nav-icon {
+  font-size: 30px;
+  color: white;
+  margin-top: 10px;
+  display: none;
+}
+
+.content {
+  color: white;
+  text-align: center;
+  margin-top: 40vh;
+  margin-left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+/* Responsive Design Starts Here */
+
+/* Responsive Design Ends Here */
