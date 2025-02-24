@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  background-image: url(./img/bg.webp);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.navber {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  width: 100vw;
+  background-color: rgba(43, 41, 41, 0.7);
+}
+
+.logo {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-left: 150px;
+  transition: all 0.4s;
+}
+
+.logo span {
+  color: blue;
+}
+
+.logo:hover {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.navber ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 150px;
+  list-style-type: none;
+}
+
+.navber ul li {
+  list-style-type: none;
+  position: relative;
+}
+
+.navber ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 20px;
+  transition: all 0.4s;
+}
+
+.navber ul li a:hover {
+  color: blue;
+}
+
+.fa-caret-down {
+  margin-left: 5px;
+}
+
+.drop-down {
+  display: none;
+}
+
+.navber ul li:hover .drop-down {
+  display: block;
+  position: absolute;
+  background-color: rgba(43, 41, 41, 0.7);
+  width: 130px;
+  height: 220px;
+}
+
+.drop-down ul {
+  display: block;
+  margin-top: 50px;
+  width: 130px;
+}
+
+.drop-down ul li {
+  margin-top: 20px;
+}
+
+.fa-caret-right {
+  position: absolute;
+  top: 3px;
+  right: 15px;
+}
+
+.drop-right {
+  display: none;
+}
+
+.drop-down ul li:hover .drop-right {
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: 130px;
+  width: 220px;
+  background-color: rgba(43, 41, 41, 0.7);
+}
+
+.drop-right ul {
+  margin-top: -5px;
+}
+
+.drop-right ul li {
+  margin-bottom: 20px;
+}
