@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e4e4e4;
+}
+
+.container {
+  height: 45vh;
+  width: 50vw;
+  background-color: #ffffff;
+  margin: 30vh auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px grey;
+}
+
+.main {
+  width: 47vw;
+  margin: 0px auto;
+}
+
+.invoice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.invoice > h3 {
+  margin-top: 15px;
+}
+
+.invoice > span {
+  margin-top: 20px;
+  background-color: #15803d;
+  padding: 8px 19px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.table_content {
+  border-collapse: collapse;
+  min-width: 47vw;
+  margin-top: 15px;
+}
+
+.table_content thead th {
+  text-align: left;
+}
+
+.table_content tbody td {
+  padding: 12px 0;
+}
+
+.table_content tr {
+  border-bottom: 1px solid rgb(204, 191, 191);
+}
+
+.table_content tbody tr td span {
+  background-color: rgb(173, 173, 173);
+  padding: 5px 8px;
+  border-radius: 100%;
+  margin-right: 5px;
+}
