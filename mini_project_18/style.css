@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: auto;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 150px;
+}
+
+.img2 {
+  width: 250px;
+  height: 120px;
+  margin-top: 10px;
+}
+
+.img3 {
+  height: 120px;
+  width: 140px;
+  margin-top: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  color: rgb(248, 148, 34);
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.sub-title {
+  font-size: 25.7px;
+  padding: 15px 0;
+}
+
+.input_fild {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.left_input_fild {
+  width: 50%;
+}
+
+label {
+  font-size: 18px;
+}
+
+input {
+  margin: 5px 0 10px;
+  width: 95%;
+  padding: 8px 5px;
+}
+
+::placeholder {
+  font-size: 18px;
+  color: black;
+}
+
+.date_of_birth {
+  border: 1px solid black;
+  width: 95%;
+}
+
+.date_of_birth h4 {
+  margin-top: -10px;
+  margin-left: 15px;
+  background-color: white;
+  width: 22%;
+  padding-left: 8px;
+  display: flex;
+}
+
+.date {
+  display: flex;
+}
+
+.gender {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.gender p {
+  margin-left: -30px;
+  margin-top: 3px;
+}
+
+.Physically {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.Physically input {
+  width: 20px;
+}
+
+.Physically p {
+  margin-left: -22px;
+  margin-top: 3px;
+}
+
+.divition_border {
+  width: 1px;
+  height: 745px;
+  background-color: rgb(187, 182, 182);
+  margin-right: 20px;
+}
+
+.right_input_fild {
+  width: 50%;
+}
+
+.computer {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+}
+
+.computer input {
+  width: 20px;
+}
+
+.computer p {
+  margin-left: -25px;
+  margin-top: 3px;
+}
+
+.Photograph input {
+  margin-top: -5px;
+  margin-left: -5px;
+}
+
+.Photograph p:nth-child(3) {
+  margin-top: -10px;
+}
+
+.Signature input {
+  margin-top: -5px;
+  margin-left: -5px;
+}
+
+.Signature p:nth-child(3) {
+  margin-top: -10px;
+}
+
+button {
+  font-size: 18px;
+  padding: 5px 10px;
+  margin-top: 5px;
+}
