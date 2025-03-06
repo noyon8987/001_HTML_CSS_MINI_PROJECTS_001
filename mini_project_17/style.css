@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html , body{
+    width: 100%;
+    height: auto;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vw 4vw;
+    background-color: rgb(156, 252, 220);
+}
+
+.logo {
+    font-size: 1.3vw;
+}
+
+.navber_list {
+    display: flex;
+    gap: 2vw;
+    list-style: none;
+}
+
+.navber_link:link,
+.navber_link:visited {
+    text-decoration: none; 
+    color: black;
+    font-size: 1.3vw;
+    font-weight: 700;
+}
+
+.navber_link:hover,
+.navber_link:active {
+    color: rgb(98, 98, 255);
+    transition: all linear 0.3s;
+}
+
+.hero_section {
+    background-color: rgb(0, 179, 202);
+    height: 43vh;
+}
+
+.service_section {
+    background-color: darksalmon;
+    height: 44vh;
+}
+
+p {
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+.mobile_nabver_icon {
+    display: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.mobile_nabver_icon i {
+    font-size: 2.5vw;
+}
+
