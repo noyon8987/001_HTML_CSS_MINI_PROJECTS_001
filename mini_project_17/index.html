@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Navber</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="logo">
         <h1>Noyon Tech Solution</h1>
       </div>
-      <nav>
+      <nav class="navber">
         <ul class="navber_list">
           <li><a class="navber_link" href="#">Home</a></li>
           <li><a class="navber_link" href="#">About</a></li>
@@ -34,5 +40,14 @@
     <section class="service_section">
       <p>Service Section</p>
     </section>
+
+    <script>
+      let navber_btn = document.querySelector(".mobile_nabver_icon");
+      let header_btn = document.querySelector(".header");
+      let toggleNavber = () => {
+        header_btn.classList.toggle("active");
+      };
+      navber_btn.addEventListener("click", () => toggleNavber());
+    </script>
   </body>
 </html>
