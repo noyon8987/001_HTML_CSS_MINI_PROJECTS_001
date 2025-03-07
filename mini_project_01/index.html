@@ -41,5 +41,14 @@
         dolor sit ipsam dolorum!.
       </p>
     </div>
+
+    <script>
+      let navber_icon = document.querySelector(".nav-icon");
+      let navber = document.querySelector(".navber");
+      let toggleNavber = () => {
+        navber.classList.toggle("active");
+      };
+      navber_icon.addEventListener("click", () => toggleNavber());
+    </script>
   </body>
 </html>
